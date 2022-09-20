@@ -1,0 +1,10 @@
+out/
+build/
+*.png
+*.pfm
+*.txt
+
+!CMakeLists.txt
+.vs/
+.vscode/
+
