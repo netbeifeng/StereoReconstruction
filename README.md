@@ -46,9 +46,11 @@ In order compare BM and SGBM we used different error
 and accuracy metrics that we calculated using a ground truth
 disparity map. One error function is the root mean squared, which measures the mean difference between the calculated
 disparity D and the ground truth G with size $D_w \times D_h$. 
+
 $$
 RMS(D, G) = \sqrt{\frac{1}{D_wD_h} \sum_{x=0}^{w} \sum_{y=0}^{h} (D_{x,y} - G_{x,y})^2}
 $$
+
 An-
 other function which does not determine the error rate but
 the accuracy is $BAD_\alpha$ with $\alpha \in \{1,2,5\}$ which is defined
