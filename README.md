@@ -88,7 +88,7 @@ At first, you need to install vcpkg. You can find the installation tutorial [her
 
 And then you'll need to install our dependencies.
 
-For now, we only use Eigen, OpenCV and Ceres Solver.
+For now, we only use Eigen, OpenCV and g2o Solver.
 
 - `vcpkg install eigen3`
 - `vcpkg install opencv[contrib,nonfree]` (contrib, nonfree tag for using `xfeatures2d`)
@@ -101,7 +101,7 @@ For now, we only use Eigen, OpenCV and Ceres Solver.
 
 After installing these two libraries, you should be able to build the project by using Cmake.
 
-**You May Change CXX Standard of the VS project manually. **
+**You May Change CXX Standard of the VS project manually.**
 
 **Before Building:** Dont forget to change the path to your vcpkg in [`CmakeLists.txt`](CMakeLists.txt) at ***Line 4***.
 
